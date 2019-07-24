@@ -126,11 +126,6 @@
   padding: $spacing-unit 0;
 }
 
-.footer-heading {
-  @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit / 2;
-}
-
 .contact-list,
 .social-media-list {
   list-style: none;
@@ -145,16 +140,11 @@
 }
 
 .footer-col {
-  width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-  width:         calc(100% - (#{$spacing-unit} / 2));
   margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
   text-align: center;
-}
 
-@media screen and (min-width: $on-medium) {
-  .footer-col {
-    float: left;
+  a:link, a:visited {
+    color: $grey-color;
   }
 }
 
