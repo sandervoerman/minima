@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+// Import custom color scheme
+@import "solarized";
+
 // Define defaults for each variable.
 
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
@@ -10,14 +13,14 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$text-color:       $base00 !default;
+$background-color: $base3 !default;
+$brand-color:      $blue !default;
 
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
-$orange-color:     #f66a0a !default;
+$grey-color:       $base0 !default;
+$grey-color-light: $base2 !default;
+$grey-color-dark:  $base1 !default;
+$orange-color:     $orange !default;
 $table-text-align: left !default;
 
 // Width of the content area
