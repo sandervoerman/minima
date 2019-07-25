@@ -104,15 +104,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $blue;
   text-decoration: none;
 
   &:visited {
-    color: $brand-color;
+    color: $violet;
   }
 
   &:hover {
-    color: $base01;
+    color: $cyan;
     text-decoration: underline;
   }
 
