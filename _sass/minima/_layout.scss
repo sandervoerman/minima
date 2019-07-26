@@ -182,7 +182,6 @@
 .post-link {
   display: block;
   @include relative-font-size(1.5);
-  background-color: $background-color-day;
 }
 
 
@@ -246,6 +245,7 @@
       display: block;
       padding: $spacing-unit / 4;
       border: 1px solid $highlight-color-day;
+      background-color: $background-color-day;
     }
     &:hover .svg-icon { fill: currentColor; }
   }
