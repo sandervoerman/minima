@@ -245,7 +245,7 @@
     a {
       display: block;
       padding: $spacing-unit / 4;
-      border: 1px solid $comment-color-day;
+      border: 1px solid $highlight-color-day;
     }
     &:hover .svg-icon { fill: currentColor; }
   }
