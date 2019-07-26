@@ -2,11 +2,11 @@
  * Site header
  */
 .site-header {
-  color: $base2;
-  background-color: $base03;
+  border-top: 5px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
-
+  
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -24,7 +24,7 @@
 
   &,
   &:visited {
-    color: $base2;
+    color: $grey-color-dark;
   }
 }
 
@@ -32,9 +32,8 @@
   position: absolute;
   top: 9px;
   right: $spacing-unit / 2;
-  color: $base3;
-  background-color: $base02;
-  border: 1px solid $red;
+  background-color: $background-color;
+  border: 1px solid $grey-color-light;
   border-radius: 5px;
   text-align: right;
 
@@ -51,7 +50,7 @@
     text-align: center;
 
     > svg path {
-      fill: $red;
+      fill: $grey-color-dark;
     }
   }
 
