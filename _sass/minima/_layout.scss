@@ -122,7 +122,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $comment-color-day;
+  border-top: 1px solid $highlight-color-day;
   padding: $spacing-unit 0;
 }
 
@@ -245,7 +245,7 @@
     a {
       display: block;
       padding: $spacing-unit / 4;
-      border: 1px solid $text-color-night;
+      border: 1px solid $comment-color-day;
     }
     &:hover .svg-icon { fill: currentColor; }
   }
