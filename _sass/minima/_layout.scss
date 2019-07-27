@@ -135,12 +135,12 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $comment-color-day;
+  color: $text-color-day;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 
   a {
-    color: $comment-color-day;
+    color: $text-color-day;
   }
 }
 
