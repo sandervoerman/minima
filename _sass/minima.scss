@@ -15,7 +15,7 @@ $spacing-unit:     30px !default;
 
 $text-color:       $strong-color-day !default;
 $background-color: $background-color-day !default;
-$border-color:     darken($highlight-color-day, 10%);
+$border-color:     $border-color-day;
 $brand-color:      $blue !default;
 
 $grey-color:       $base1 !default;

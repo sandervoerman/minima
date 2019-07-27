@@ -1,15 +1,13 @@
-/*  Solarized colors by Ethan Schoonover
- *  https://ethanschoonover.com/solarized
- */
-
-$base03:    #002b36;
-$base02:    #073642;
-$base01:    #586e75;
-$base00:    #657b83;
-$base0:     #839496;
-$base1:     #93a1a1;
-$base2:     #eee8d5;
-$base3:     #fdf6e3;
+// Solarized colors https://ethanschoonover.com/solarized
+// RGB white D65      // CIELAB ref D50
+$base03:    #002b36;  // 15  -12  -12
+$base02:    #073642;  // 20  -12  -12
+$base01:    #586e75;  // 45   -7   -7
+$base00:    #657b83;  // 50   -7   -7
+$base0:     #839496;  // 60   -6   -3
+$base1:     #93a1a1;  // 65   -5   -2
+$base2:     #eee8d5;  // 92    0  +10
+$base3:     #fdf6e3;  // 97    0  +10
 $yellow:    #b58900;
 $orange:    #cb4b16;
 $red:       #dc322f;
@@ -19,17 +17,21 @@ $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
 
+// Additional colors
+// RGB white D65      // CIELAB ref D50
+$base2b:    #ccc6b4;  // 80    0  +10
+
+// Light mode colors
 $background-color-day: $base3;
-$background-color-night: $base03;
-
 $highlight-color-day: $base2;
-$highlight-color-night: $base02;
-
+$border-color-day: $base2b;
 $comment-color-day: $base1;
-$comment-color-night: $base01;
-
 $text-color-day: $base00;
-$text-color-night: $base0;
-
 $strong-color-day: $base01;
+
+// Dark mode colors
+$background-color-night: $base03;
+$highlight-color-night: $base02;
+$comment-color-night: $base01;
+$text-color-night: $base0;
 $strong-color-night: $base1;
